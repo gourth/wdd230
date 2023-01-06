@@ -1,0 +1,54 @@
+*
+nav {
+    background-color: white;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: right;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+body {
+    font-size: 16px;
+    line-height: 1.5;
+    color: black;
+    margin: 0;
+}
+
+header {
+    background-color: blue;
+    text-align: center;
+    align-items: center;
+}
+
+main {
+    width: 700px;
+    display: contents;
+    justify-content: center;
+    position: absolute;
+    color: black;
+}
+
+footer {
+    background-color: blue;
+}
+
+.myphoto {
+    width: 140px;
+    height: 140px;
+}
+
+.title {
+    text-align: center;
+}
+
+.projects {
+    text-align: left;
+    padding: 45px;
+}
+
+.activities {
+    text-align: left;
+    padding: 45px;
+}
