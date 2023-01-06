@@ -1,11 +1,13 @@
+* 
+
 body {
     font: roboto;
 }
 
 header {
     width: 640px;
-    margin: 1rem auto
-    color blue
+    margin: 1rem auto;
+    background-color: blue;
     
 
 }
