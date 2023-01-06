@@ -5,9 +5,26 @@ body {
 }
 
 header {
-    width: 640px;
+    max-width: 640px;
     margin: 1rem auto;
     background-color: blue;
-    
+    border: 1 rem;
+    padding: 1 rem;
 
+}
+
+main {
+    max-width: 640px;
+    margin: 1rem auto;
+    background-color: blue;
+    border: 1 rem;
+    padding: 1 rem;
+}
+
+footer {
+    max-width: 640px;
+    margin: 1rem auto;
+    background-color: blue;
+    border: 1 rem;
+    padding: 1 rem;
 }
