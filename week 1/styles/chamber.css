@@ -22,3 +22,8 @@ main {
 .paragraphs {
     font-family: 'Work Sans', sans-serif;
 }
+
+.wireframe1 {
+    height: 300px;
+    width: 350px;
+}
