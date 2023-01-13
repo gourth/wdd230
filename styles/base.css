@@ -68,8 +68,9 @@
 body {
     font-size: 16px;
     line-height: 1.5;
-    color: black;
+    background-color: #8C96BD;
     margin: 0;
+    color: white;
 }
 
 
@@ -90,13 +91,15 @@ a:hover {
     text-decoration: underline;
 }
 
-main {
+/* main {
     width: 700px;
     display: contents;
     justify-content: center;
     position: absolute;
-    color: black;
-}
+    background-color: #eee;
+    color: #000
+    
+} */
 
 footer {
     background-color: blue;
@@ -120,4 +123,12 @@ footer {
 .activities {
     text-align: left;
     padding: 45px;
+}
+
+#mode {
+	position: absolute;
+	top: 5rem;
+	right: 1rem;
+	font-size: 3rem;
+	cursor: pointer;
 }
