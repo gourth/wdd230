@@ -34,14 +34,23 @@
 </header>
 <script src="scripts/hamburger.js"></script>
 <body>
-<img class="myphoto" src="https://pbs.twimg.com/profile_images/1086090544978116608/HMip8sWv_400x400.jpg" />
+<img class="myphoto" src="images/myphoto.webp" />
 <section class ="body">
 <h1> Garrett Ourth </h1>
 <div id="mode">
 	☑️
 </div>
 <script src="week 2/scripts/darkmode.js"></script>
-<picture></picture>
+<div>
+<picture>
+    <source srcset="images/sjtemple-small.webp" media ="(max-width: 400px)">
+    <source srcset="images/sjtemple-medium.webp" media ="(max-width: 960px)">
+    <img src="images/sjtemple-original.webp" alt="San Juan Temple">
+</picture>
+<div class="herolabel">
+    <p>San Juan Puerto Rico Temple</p>
+</div>
+</div>
 <main>
     <h2 class="title">WDD 230: Course Activity Portal</h2>
     <section class="card">
@@ -66,8 +75,8 @@
     <section class="visit">
     <p><span class="label">Number of Visits: </span><span class="visits"></span></p>
 	<hr>
-	<p><strong>DateTime</strong>
-	<p>Current Page Load Timestamp: <span class="today"></span> (milliseconds)</p>
+	<!-- <p><strong>DateTime</strong>
+	<p>Current Page Load Timestamp: <span class="today"></span> (milliseconds)</p> -->
 </main>
 <script src="scripts/visits.js"></script>
 </section>
