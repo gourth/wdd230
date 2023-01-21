@@ -9,7 +9,11 @@
   }
 
   p {
-    padding: 1rem;
+    padding: .5rem;
+  }
+
+  footer {
+    margin: 1px;
   }
 
   /* Nav Hamburger CSS */
