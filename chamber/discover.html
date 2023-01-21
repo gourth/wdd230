@@ -4,11 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="discover page for Spring, TX chamber of commerce">
+    <meta name="author" content="Garrett Ourth">
+    <meta property="og:title" content="Discover Home Page" />
+    <meta property="og:type" content="Chamber of Commerce Discover" />
+    <meta property="og:url" content="http://127.0.0.1:5500/index.html" />
+    <meta property="og:img" content="https://cdn.glitch.global/c18279f5-42e1-44f8-b2e2-6bfe904ec286/spring.jpeg?v=1673412235757" />
+    <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Chamber of Commerce Discover Page</title>
 </head>
+<body>
 <header>
     <nav>
         <ul class="menu">
@@ -24,15 +32,52 @@
         </button>
     </nav>
 </header>
-<script src="scripts/hamburger.js"></script>
-<body>
+
+
+    <main>
+      <div class='container'>
+        <div class='sidebar'>
+          <h3>Population</h3>
+          <p>The most recent census shows a total population of 61,514 residents of Spring, TX.</p>
+          <h3>Demographics</h3>
+          <p>According to the most recent ACS, the racial composition of Spring was:<br>
+            <br>
+            White: 62.27%<br>
+            Black or African American: 21.48%<br>
+            Two or more races: 6.56%<br>
+            Other race: 6.25%<br>
+            Asian: 2.78%<br>
+            Native American: 0.33%<br>
+            Native Hawaiian or Pacific Islander: 0.32%</p>
+          <h3>Events</h3>
+          <p>Community Flag Football on 1/25 @ 7 pm.</p><br>
+          <p>Family Movie Night at the Park. 1/28 @ 6:30 pm.</p><br>
+          <p>Super Bowl Watch Party @ Torchy's 2/13 @ 7 pm. </p><br>
+          <p>Valentines Day 5k 2/14 @ 10:30 am.</p>
+          
+        </div>
+        <div class='main'>
+          <picture>
+            <img src="images/spring1.webp" alt="old town spring" loading ="lazy">
+            <img src="images/spring2.webp" alt="ariel view of spring" loading ="lazy">
+            <img src="images/spring3.webp" alt="a beautiful lake" loading ="lazy">
+            <img src="images/spring4.webp" alt="a texas ranch" loading ="lazy">
+            <img src="images/spring5.webp" alt="horse stable" loading ="lazy">
+            <img src="images/spring6.webp" alt="blue bonnets" loading ="lazy">
+            <img src="images/spring7.webp" alt="overlooking a lake" loading ="lazy">
+            <img src="images/spring8.webp" alt="top golf" loading ="lazy">
+        </picture>
+        </div>
+      </div>
+
+    </main>
     
-    
-</body>
+
 <footer>
     <p> &copy; 2023 - Garrett Ourth- WDD 230 Project</p>
     <p class="highlight" id="lastModified"></p>
 </footer>
 <script src="scripts/lastmodified.js"></script>
-
+<script src="scripts/hamburger.js"></script>
+</body>
 </html>
