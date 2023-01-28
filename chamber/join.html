@@ -4,17 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="home page for Spring, TX chamber of commerce">
+    <meta name="description" content="join us for Spring, TX chamber of commerce">
     <meta name="author" content="Garrett Ourth">
-    <meta property="og:title" content="Chamber Home Page" />
-    <meta property="og:type" content="Chamber of Commerce Home" />
+    <meta property="og:title" content="Chamber Join Us Page" />
+    <meta property="og:type" content="Chamber of Commerce Join" />
     <meta property="og:url" content="http://127.0.0.1:5500/index.html" />
     <meta property="og:img" content="https://cdn.glitch.global/c18279f5-42e1-44f8-b2e2-6bfe904ec286/spring.jpeg?v=1673412235757" />
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <title>Chamber of Commerce Home Page</title>
+    <title>Chamber of Commerce Join Us Page</title>
 </head>
 <body class="fbody">
 <header>
@@ -33,7 +33,7 @@
                 <a href="#" class="nav-link">Directory</a>
             </li>
             <li class="nav-item">
-                <a href="#" class="nav-link">Join</a>
+                <a href="join.html" class="nav-link">Join</a>
             </li>
         </ul>
         <div class="hamburger">
@@ -50,7 +50,7 @@
         <h1 class="join">Join Us!</h1>
         <form method="get" action="thanks.html">
             <fieldset>
-                <legend>Personal Information</legend>
+                <legend><strong>Personal Information</strong></legend>
                 <label class="top">First Name* <input type="text" name="fname" required> </label>
                 <label class="top">Last Name* <input type="text" name="lname" required> </label>
                 <label class="top">Business Position <input type="text" name="title"> </label>
@@ -61,28 +61,38 @@
             </fieldset>
 
             <fieldset>
-                <legend>Membership Information</legend>
+                <legend><strong>Membership Information</strong></legend>
                 <div>Membership Levels</div>
                 <label class="sbs"><input type="radio" name="membership" value="np"> NP Membership (non profit organizations and there is no fee)</label>
                 <label class="sbs"><input type="radio" name="membership" value="bronze"> Bronze </label>
                 <label class="sbs"><input type="radio" name="membership" value="silver"> Silver </label>
                 <label class="sbs"><input type="radio" name="membership" value="gold"> Gold </label>
-
+                
+                <div class="outer">
+                <div class="above">
                 <h3>Membership Pricing</h3>
                 <p>Bronze=$25</p>
                 <p>Silver=$50</p>
                 <p>Gold=$100</p>
-
+                </div>
+                
+                <div class="below">
                 <h3>Membership Benefits</h3>
                 <p>Bronze: Includes training, 10% off event discounts, 1 free add on home page monthly.</p>
                 <p>Silver: Includes 20% off event discounts, access to tier 2 special events, 10 free adds monthly.</p>
                 <p>Gold: Includes 30% off event discounts, access to tier 1 special events, free adds.</p>
-
+                </div>
+                </div>
+            </fieldset>
+            
+            <fieldset>
                 <label class ="top" for="comments">Business description:
-		<textarea id="comments" name="comments" required> </textarea> </label>
+		    <textarea id="comments" name="comments" required> </textarea> </label>
+            </fieldset>
 
             <input type="submit" value="Join Now" class="submitBtn">
-
+            <input type="hidden" id="date" name="date" value="CurrentTime"> 
+            <input type="hidden" id="time" name="time" value="CurrentDate">
         </form>
 
     </main>

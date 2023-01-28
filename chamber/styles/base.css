@@ -152,11 +152,13 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
   .fbody {
     font-size: 16px;
     font-family: Verdana, sans-serif;
+    background-color: #8C96BD;
 }
   
   .fmain {
     padding: 0 2%;
     min-height: 20rem;
+    
 }
 
 .join {
@@ -169,21 +171,23 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 /*----------- Form --------------*/
 form fieldset {
     margin: 2rem 4rem;
-    border: 1px solid #445ba9;
+    border: 2px solid black;
     border-radius: 10px;
     padding: .5rem 2%;
+    background-color: lightgrey;
 }
 
 form legend {
-    color: #445ba9;
-    margin: 0 1rem;
+    color: black;
+    margin: 0 4rem;
     padding: 0 .5rem;
+    top: 100rem;
 }
 
 form label.top, form div {
     display: block;
     padding-top: 1rem;
-    color: #9c2c13;
+    color: #373231;
     font-size: .8rem;
 }
 
@@ -208,7 +212,7 @@ form label.sbs {
 
 form input.submitBtn {
     border: none;
-    background-color: #9c2c13;
+    background-color: #205172;
     color:white;
     border-radius: 1rem;
     padding: .75rem 1.5rem;
@@ -224,4 +228,20 @@ form label.top input:required {
 
 form label.top input:required:valid {
     border-left: green solid 6px;
+}
+
+.above {
+  text-align: center;
+  position: relative;
+  justify-content: center;
+  right: -250px;
+  top: -250px;
+}
+
+.below {
+  text-align: center;
+  position: relative;
+  justify-content: center;
+  right: -240px;
+  top: -250px;
 }
