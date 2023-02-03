@@ -1,0 +1,9 @@
+{
+    "activites" : {
+        "week 1" : ["week 1/holygrail.html", "week 1/media-query.html"],
+        "week 2" : ["https://codepen.io/gourth/pen/wvxddbw", "week 2/design.html"],
+        "week 3" : ["week 3/lazyload.html", "week 3/Images/week3landscape.jpg.png", "https://codepen.io/gourth/pen/YzjrdzJ"],
+        "week 4" : ["https://codepen.io/gourth/pen/oNMqNmL", "https://i.postimg.cc/qR6ym1P6/combinators.png", "week 4/tablebuild.html", "week 4/form-start/index.html"],
+        "week 5" : ["https://codepen.io/gourth/pen/eYjLPxm", "week 5/new-ward-members.json", "week 5/prophets.html", "week 5/weather.html"]
+    }
+}
