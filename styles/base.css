@@ -304,3 +304,32 @@ table, th, td {
 .table td:nth-child(1) {
   color: lightblue;
 }
+
+/* Weather icon */
+
+
+.weather {
+  border: 1px solid black;
+  background-color: lightgrey;
+  border-radius: 10px;
+  width: 300px;
+  text-align: center;
+  margin: 12px;
+  
+}
+
+p, h2 {
+  margin: .3rem 0;
+}
+
+#town {
+  color: black;
+}
+
+#description {
+  text-transform: capitalize; color: black;
+}
+
+#temperature {
+  font-size: 2rem; color: black;
+}
