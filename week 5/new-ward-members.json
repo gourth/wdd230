@@ -1,0 +1,24 @@
+{
+    "familyName" : "Ourth",
+    "dateMoved" : "June 20th, 2022",
+    "numFamily" : 3,
+    "bishopricVisit" : true,
+    "members" : [
+      {
+        "name" : "Garrett",
+        "birthdate" : "01/22/1996",
+        "gender" : "Male"
+        
+      },
+      {
+        "name" : "Jill",
+        "birthdate" : "07/08/1994",
+        "gender" : "Femal"
+      },
+      {
+        "name" : "Lila",
+        "birthdate" : "03/11/2022",
+        "gender" : "Female"
+      }
+    ]
+  }

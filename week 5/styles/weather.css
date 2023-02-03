@@ -1,0 +1,23 @@
+.card {
+    border: 1px solid blue;
+    background-color: lightyellow;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+p, h2 {
+    margin: .3rem 0;
+}
+
+#town {
+    color: black;
+}
+
+#description {
+    text-transform: capitalize; color: black;
+}
+
+#temperature {
+    font-size: 2rem; color: black;
+}
