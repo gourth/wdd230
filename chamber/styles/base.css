@@ -257,8 +257,8 @@ top: -250px;
 /* Weather */
 
 .card {
-border: 1px solid blue;
-background-color: lightyellow;
+border: 1px solid black;
+background-color: lightblue;
 border-radius: 10px;
 width: 300px;
 text-align: center;
@@ -369,4 +369,12 @@ section h3 {
 section a {
 	font-family: "Roboto", Arial, sans-serif;
 	font-size: 0.9rem;
+}
+
+#banner {
+  display: none;
+  border: 1px solid black;
+  text-align: center;
+  background-color: rgb(187, 187, 232);
+  
 }
