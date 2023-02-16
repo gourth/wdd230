@@ -6,6 +6,7 @@
 
 h3 {
   padding: 1rem;
+  text-align: center;
 }
 
 p {
@@ -30,6 +31,10 @@ li {
 a {
   color:white;
   text-decoration: none;
+}
+
+.spotlight {
+  text-align: center;
 }
 
 
@@ -119,7 +124,32 @@ a {
 
 }
 
+/* Call to action */
+.button-wrapper {
+  display: block;
+  position: relative;
+  bottom: 350px;
+  left: 23px;
+}
 
+.button {
+  border: none;
+  border-radius: 3em;
+  box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+  display: inline-block;
+  font-size: 1em;
+  padding: 1em 2em;
+  width: auto;
+}
+
+.cta-button {
+  background-color: #000;
+  color: #fff !important;
+}
+
+.cta-button:hover {
+  background-color: #777;
+}
 
 
 
