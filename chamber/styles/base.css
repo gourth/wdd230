@@ -18,6 +18,20 @@ footer {
   background-color: lightgrey;
 }
 
+.spotlight {
+  text-align: center;
+}
+
+
+.hero {
+  margin: 2px;
+  padding: 23px;
+}
+
+body {
+  background-color: #8C96BD;
+}
+
 /* Nav Hamburger CSS */
 
 header {
@@ -32,12 +46,6 @@ a {
   color:white;
   text-decoration: none;
 }
-
-.spotlight {
-  text-align: center;
-}
-
-
 
 
 
@@ -129,7 +137,7 @@ a {
   display: block;
   position: relative;
   bottom: 350px;
-  left: 23px;
+  left: 35px;
 }
 
 .button {
