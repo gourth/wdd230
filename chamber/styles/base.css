@@ -32,7 +32,6 @@ footer {
 .hero {
   margin: 2px;
   
-  
 }
 
 body {
@@ -188,6 +187,9 @@ a {
   grid-area: main;
   height: 100vw;
   background-color: gray;
+  position: relative;
+  bottom: 1233px;
+  left: 200px;
 }
 
 .hover:hover {
