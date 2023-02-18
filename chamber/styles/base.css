@@ -4,6 +4,12 @@
   box-sizing: border-box;
 }
 
+@media (max-width: 400px) {
+  body {
+    overflow-x: hidden; /* Hide the horizontal scrollbar */
+  }
+}
+
 h3 {
   padding: 1rem;
   text-align: center;
@@ -25,7 +31,8 @@ footer {
 
 .hero {
   margin: 2px;
-  padding: 23px;
+  
+  
 }
 
 body {
@@ -136,7 +143,7 @@ a {
 .button-wrapper {
   display: block;
   position: relative;
-  bottom: 350px;
+  bottom: 450px;
   left: 35px;
 }
 
@@ -275,6 +282,7 @@ form label.top input:required {
 form label.top input:required:valid {
   border-left: green solid 6px;
 }
+
 
 .above {
 text-align: center;
